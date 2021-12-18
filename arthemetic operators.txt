@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+
+{
+    int num1 ,num2 ;
+    scanf("%d%d",&num1 ,&num2);
+    printf("sum of %d and %d is %d" ,num1, num2 , num1+num2);
+    printf("\ndifference of %d and %d is %d\n" ,num1, num2 , num1-num2);
+    printf("product of %d and %d is %d\n" ,num1, num2 , num1*num2);
+    printf("quotient of %d and %d is %d\n" ,num1, num2 , num1/num2);
+    printf("reminder of %d and %d is %d\n" ,num1, num2 , num1%num2);
+}

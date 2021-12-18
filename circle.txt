@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+    float radius,area,peri;
+    float pie = 3.14;
+    scanf("%f",&radius);
+    area=pie*radius*radius;
+    peri=2*pie*radius;
+    printf("area of circle with radius %f is %f ",radius,area);
+    printf("\nperimeter of circle with radius %f is %f",radius,peri);
+    
+    
+}
