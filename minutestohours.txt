@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int given_min, tim;
+    float hours;
+   
+    scanf("%d",&given_min);
+    hours=given_min/60;
+    tim=given_min-hours*60;
+    printf("%.0f hours(s)",hours);
+    printf("%d minutes(s)",tim);
+}
