@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+    float rate , principle , tim, interest;
+    scanf("%f%f%f", &principle ,&rate  , &tim);
+    interest=(principle*rate*tim)/100;
+    printf("simple interest when principal %.1f  rate %.1f and time %.1f is %.1f ",principle,rate , tim, interest);
+    
+}
