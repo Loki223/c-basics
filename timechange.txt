@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+       int hours,minutes,seconds,tot_seconds;
+       scanf("%d",&tot_seconds);
+       hours=tot_seconds/3600;
+       minutes=tot_seconds%3600/60;
+      
+       seconds=tot_seconds%3600%60;
+       printf("H:M:S = %d:%d:%d",hours,minutes,seconds);
+}
