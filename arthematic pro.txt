@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+       int x,num , sum , firterm,lasterm,comdiff,secnum;
+       scanf("%d%d",&firterm,&secnum);
+       comdiff=firterm;
+       num=secnum/firterm;
+       lasterm=firterm*(num-1)+comdiff;
+       sum=num*(firterm+lasterm)/2;
+       printf("%d",sum);
+       
+       
+       
+       
+}
