@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+   int tot_money;
+   scanf("%d",&tot_money);
+   int twotho=tot_money/2000;
+   int twothore=tot_money%2000;
+   int fivhun=twothore/500;
+   int fivhunre=twothore%500;
+   int twohun=fivhunre/200;
+   int twohunre=fivhunre%200;
+   int hun=twohunre/100;
+   int hunre=twohunre%100;
+   int fifty=hunre/50;
+   int fiftyre=hunre%50;
+   int twenty=fiftyre/20;
+   int twentyre=fiftyre%20;
+   int ten=twentyre/10;
+   int tenre=twentyre%10;
+   int five=tenre/5;
+   int fivere=tenre%5;
+   int two=fivere/2;
+   int twore=fivere%2;
+   int one=twore/1;
+   int onere=twore%1;
+   printf("2000 note(s) -->%d \n500 note(s) --> %d\n 100 note(s)-->%d\n 50 note(s)-->%d\n 20 note(s)-->%d\n 10 note(s)-->%d\n 5 note(s)-->%d\n 2 note(s)-->%d\n 1 note(s)-->%d\n ",twotho,fivhun,twohun,hun,fifty,twenty,ten,five,two,one);
+   
+       
+       
+}
